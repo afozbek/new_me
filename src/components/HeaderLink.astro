@@ -5,8 +5,13 @@ let isActive;
 if (href === "/") {
 	isActive = Astro.url.pathname === href;
 } else {
+
+	
 	isActive = Astro.url.pathname.startsWith(href);
 }
+
+
+console.log(className);
 
 ---
 
@@ -17,8 +22,10 @@ if (href === "/") {
 	a {
 		display: inline-block;
 		text-decoration: none;
+		cursor: pointer;
+
 	}
-	a.active {
+	a.active, a:hover {
 		font-weight: bolder;
 		text-decoration: underline;
 		text-decoration-thickness: 0.3ex;

@@ -233,12 +233,12 @@ h3 {
 
 .header-image {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .header-frame {
-  max-width: 350px;
+  max-width: 450px;
 }
 
 article :not(.article-title) {
